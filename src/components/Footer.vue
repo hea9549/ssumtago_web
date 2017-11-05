@@ -18,13 +18,35 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#footerSection{
-  height: 52px;
-  min-width: 80rem;
-  background: #424242;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+@media screen and (min-width: 1440px){
+  #footerSection{
+    height: 52px;
+    min-width: 80rem;
+    background: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 768px){
+  #footerSection{
+    height: 52px;
+    background: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+  #footerSection{
+    height: 52px;
+    background: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
 }
 </style>
